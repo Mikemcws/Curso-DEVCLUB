@@ -13,18 +13,23 @@ Reset CSS (IGUALAR TUDO)
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
+
 /* Cores - 2 formas
         1) O nome da cor
         2) O código da cor
 */
 
 body {
-    background: #09090b; /* Cor de Fundo */
-    color: #fafafa;  /* cor do texto */
+    background: #09090b;
+    /* Cor de Fundo */
+    color: #fafafa;
+    /* cor do texto */
     padding: 60px 20px;
     display: flex;
-    flex-direction: column;  /* um debaixo do outro */
-    align-items: center;  /* alinhar ao centro */
+    flex-direction: column;
+    /* um debaixo do outro */
+    align-items: center;
+    /* alinhar ao centro */
 }
 
 .etiqueta {
@@ -32,8 +37,10 @@ body {
 }
 
 h1 {
-    font-size: 52px;/* Tamanho do texto */
-    font-weight: 800; /* grossura da fonte*/
+    font-size: 52px;
+    /* Tamanho do texto */
+    font-weight: 800;
+    /* grossura da fonte*/
     color: #fafafa;
 }
 
@@ -57,14 +64,15 @@ span {
 }
 
 textarea {
-   width: 80%;  /* largura */
-   resize: none;
-   outline: none;
-   background: transparent;
-   padding: 8px;
-   color: #fafafa;
-   font-size: 15px;
-   border: none;
+    width: 80%;
+    /* largura */
+    resize: none;
+    outline: none;
+    background: transparent;
+    padding: 8px;
+    color: #fafafa;
+    font-size: 15px;
+    border: none;
 }
 
 button {
@@ -72,9 +80,12 @@ button {
     padding: 10px 24px;
     color: #ffffff;
     background: #7c3aed;
-    border: none; /* borda */
-    border-radius: 10px; /* arredondar a bordar */
-    cursor: pointer;  /* trocar o cursor do mouse */
+    border: none;
+    /* borda */
+    border-radius: 10px;
+    /* arredondar a bordar */
+    cursor: pointer;
+    /* trocar o cursor do mouse */
     font-weight: 600;
 }
 
@@ -95,8 +106,10 @@ button {
     padding: 20px;
     font-size: 12px;
     color: #22c55e;
-    white-space: pre-wrap;  /* quebrar linha */
-    overflow: auto; /* scroll do mouse */
+    white-space: pre-wrap;
+    /* quebrar linha */
+    overflow: auto;
+    /* scroll do mouse */
     height: 600px;
     border-radius: 12px;
     border: 1px solid #27272a;
